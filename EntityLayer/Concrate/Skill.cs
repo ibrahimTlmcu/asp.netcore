@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityLayer
+namespace EntityLayer.Concrate
 {
-    internal class About
+    internal class Skill
     {
     }
 }
