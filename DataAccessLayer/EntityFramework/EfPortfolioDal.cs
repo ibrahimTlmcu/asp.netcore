@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DataAccessLayer.Abstract;
+using DataAccessLayer.Repository;
+using EntityLayer.Concrate;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    internal class EfPortfolioDal
+    public class EfPortfolioDal :GenericRepository<Portfolio> ,IPortfolioDal
     {
+
     }
 }
