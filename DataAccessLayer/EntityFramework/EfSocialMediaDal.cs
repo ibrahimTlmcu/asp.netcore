@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfContactDal : GenericRepository<Contact> , IContactDal
+    internal class EfSocialMediaDal : GenericRepository<SocialMedia>,ISocialMediaDal
     {
-
-    
     }
 }

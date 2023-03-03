@@ -11,7 +11,6 @@ namespace DataAccessLayer.Abstract
     {
 
         //Generic yapi Her bir entity yerine ayri  ayri yapi tanimlamak yerine tek bir cati tanimlamak
-
         void Insert(T t);
 
         void Delete(T t);
@@ -20,10 +19,9 @@ namespace DataAccessLayer.Abstract
 
         List<T> GetList();
 
-        T GetById(int id); /*T turunde idye gore getir int turunde id al*/
-
-
-
+        T GetById(int id);  
+        
+        /*T turunde idye gore getir int turunde id al*/
 
     }
 }

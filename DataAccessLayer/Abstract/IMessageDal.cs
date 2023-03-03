@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IMessageDal: IGenericDal<Message>
+    public interface IMessageDal:IGenericDal<Message>
     {
+
+
+
     }
 }

@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using EntityLayer.Concrate;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Abstract
+namespace DataAccessLayer.EntityFramework
 {
-    public interface IContactDal:IGenericDal<Contact>
+    internal class EfTestimonialDal
     {
     }
 }

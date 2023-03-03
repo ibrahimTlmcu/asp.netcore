@@ -1,4 +1,5 @@
-﻿using DataAccessLayer.Repository;
+﻿using DataAccessLayer.Abstract;
+using DataAccessLayer.Repository;
 using EntityLayer.Concrate;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfFeautureDal:GenericRepository<Feature>,IFeatureDa
+    public class EfFeautureDal:GenericRepository<Feature>,IFeatureDal
     {
     }
 }
