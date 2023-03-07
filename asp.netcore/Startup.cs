@@ -46,6 +46,14 @@ namespace asp.netcore
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseDefaultFiles();
+
+            // Burasi sonradan eklendi https://stackoverflow.com/questions/43468715/asp-net-core-this-localhost-page-can-t-be-found
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute("Default", "{controller= Home}/{action=Index}/{id?}");
+            });
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

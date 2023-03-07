@@ -14,6 +14,7 @@ namespace asp.netcore
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -22,5 +23,6 @@ namespace asp.netcore
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }
