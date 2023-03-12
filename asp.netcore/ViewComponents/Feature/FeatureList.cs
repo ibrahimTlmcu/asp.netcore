@@ -13,4 +13,10 @@ namespace asp.netcore.ViewComponents.Feature
             return View();
         }
     }
+    //o bolumu burdaki feature list ile parcaladaik bu metot
+    //    sadece araci invoke seklinde 
+    //    C:\Users\Casper\source\repos\asp.netcore\asp.netcore\Pages\Shared
+    //    \Components\FeatureList\
+
+    //    bu adrese gidip kontrol ediyor
 }
