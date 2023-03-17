@@ -10,7 +10,8 @@ namespace asp.netcore.ViewComponents.Feature
         FeatureManager featureManager = new FeatureManager(new EfFeautureDal()); 
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = featureManager.TGetList();
+            return View(values);
         }
     }
     //o bolumu burdaki feature list ile parcaladaik bu metot

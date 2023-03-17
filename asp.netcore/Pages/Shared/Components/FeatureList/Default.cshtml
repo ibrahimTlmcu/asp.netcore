@@ -1,4 +1,4 @@
-﻿@using EntityLayer.Concrate;
+﻿@using EntityLayer.Concrate
 @model List<Feature>
 
 
@@ -9,7 +9,8 @@
             <div class="row">
                 <div class="col-lg-6 p-2"><img class="img-fluid" src="~/Template/images/illustrations/hello3.svg" alt="hello" /></div>
                 <div class="col-lg-6">
-                   @foreach (var item in Model){ 
+                   @foreach (var item in Model)
+                   { 
                     <div class="mt-5">
                         <p class="lead text-uppercase mb-1">@item.Header</p>
                         <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">@item.Name</h1>
