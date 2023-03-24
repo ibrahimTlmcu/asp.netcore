@@ -19,5 +19,5 @@ namespace asp.netcore.ViewComponents.Feature
     //    C:\Users\Casper\source\repos\asp.netcore\asp.netcore\Pages\Shared
     //    \Components\FeatureList\
 
-    //    bu adrese gidip kontrol ediyor
+    //    bu adrese gidip kontrol yapacak !
 }
